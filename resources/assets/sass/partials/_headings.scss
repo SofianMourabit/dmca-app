@@ -1,0 +1,17 @@
+.page-heading{
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  text-align: center;
+  line-height: 1;
+
+  &:after{
+    content: '';
+    width: 70px;
+    height: 3px;
+    display: block;
+    margin: 40px auto;
+    background: $brandColor;
+  }
+
+}
